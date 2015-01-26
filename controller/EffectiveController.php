@@ -5,21 +5,6 @@
  *
  * @author Hack_Jo
  */
-class FlatRateController {
-
-    //put your code here
-    private $loan;
-
-    function __construct() {
-        
-    }
-
-    public function showInterest() {
-        
-    }
-
-}
-
 include '../class/configs.php';
 include '../class/Loan.php';
 include '../class/FlatRate.php';

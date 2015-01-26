@@ -20,7 +20,6 @@ and open the template in the editor.
                     <td>
                         <input type="text" name="amount"/>
                     </td>
-
                 </tr>
                 <tr>
                     <td>

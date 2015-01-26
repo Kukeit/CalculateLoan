@@ -5,22 +5,6 @@
  *
  * @author Hack_Jo
  */
-class FlatRateController {
-
-    //put your code here
-    private $loan;
-
-    function __construct() {
-        $loan = new FlatRate();
-        echo $loan->getInterest();
-    }
-
-    public function showInterest() {
-        
-    }
-
-}
-
 include '../class/configs.php';
 include '../class/Loan.php';
 include '../class/FlatRate.php';
@@ -86,7 +70,7 @@ if ($paybackTime > 0) {
         </table>';
     echo ' <table border="1" cellpadding="2" cellspacing="0">
         <tr>
-            <td colspan="7" align="center" style="background-color:#efefef">Effective Rate</td>
+            <td colspan="7" align="center" style="background-color:#efefef">Flat Rate</td>
         </tr>
             <tr>
                 <td style="background-color:#ccc">Period</td>
